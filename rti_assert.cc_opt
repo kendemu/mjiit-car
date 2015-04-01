@@ -1,0 +1,66 @@
+-c -KE
+-nKu
+-nKv
+-nKia
+-p603E
+-o
+rti_assert.m03
+-nQi
+-QmsC0001
+-Qms0111
+-QmsC0177
+-QmsC0186
+-QmsC0188
+-QmsC0191
+-QmsC0193
+-QmeC0223
+-QmeC0233
+-QmsC0236
+-QmsC0237
+-QmwC0260
+-QmsC0340
+-QmsC0381
+-QmsC0514
+-Qms0550
+-QmsC0826
+-Wa,-QmsA0736
+-Qms1430
+-Qms1457
+-Ot
+-Oi
+-Or
+-Ox
+-D_INLINE
+-DSSTATE=RUN
+-DSMODE=RTSIM
+-DUSE_RTMODEL
+-DMODEL=Kensei150401
+-DMT=1
+-DRT
+-DNUMST=3
+-DNCSTATES=14
+-DTID01EQ=1
+-DNO_PRINTF
+-D_DS1401
+-DRTI_BUILD
+-DRTI_ASSERTION_MODE=RTI_ASSERTION_MODE_OFF
+-DRTT_ENABLE
+-J.
+-J..
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\DS1401\RTPython"
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\Compiler\PPCTools\INC"
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\DS1401\RTKernel"
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\DS1401\RTLib"
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\MATLAB\RTI\RTI\C"
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\MATLAB\RTI\RTI\SFcn"
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\MATLAB\RTI\RTI1401\C"
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\MATLAB\RTI\RTI1401\SFcn"
+"-JC:\Program Files (x86)\dSPACE RCPHIL 2014-A\matlab\rtican\c"
+-JC:\PROGRA~2\MATLAB\R2012b\simulink\include
+-JC:\PROGRA~2\MATLAB\R2012b\extern\include
+-JC:\PROGRA~2\MATLAB\R2012b\rtw\c\src
+-JC:\PROGRA~2\MATLAB\R2012b\rtw\c\src\ext_mode\common
+-JC:\Users\Admin\Dropbox\Prototypes\141222_Razak\Kensei150401_rti1401
+-JC:\Users\Admin\Dropbox\Prototypes\141222_Razak
+-JC:\PROGRA~2\MATLAB\R2012b\toolbox\dsp\include
+-JC:\PROGRA~2\MATLAB\R2012b\toolbox\shared\dsp\vision\matlab\include 

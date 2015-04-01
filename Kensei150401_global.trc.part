@@ -1,0 +1,175 @@
+-- ******** Tunable Parameters ************************************************
+
+-- InlineParameters is off: no separate group for Tunable Parameters
+
+
+-- ******** State Machine Data ************************************************
+
+group "State Machine Data"
+{
+ flags: COLLAPSED
+}
+
+
+endgroup
+
+
+-- ******** Data Store Memories ***********************************************
+
+group "Data Stores"
+{
+ flags: COLLAPSED
+}
+	deltaT
+	{
+	 type:   flt(64,IEEE)
+	 alias:  "deltaT"
+	 origin: "Kensei150401/Peripherals/FLspeedEnc/fl encoder interrupt function/deltaT Memory"
+	 flags:  DSM
+	}
+	flipflop
+	{
+	 type:   flt(64,IEEE)
+	 alias:  "flipflop"
+	 origin: "Kensei150401/Peripherals/FLspeedEnc/fl encoder interrupt function/flipflop Memory"
+	 flags:  DSM
+	}
+	oldTime
+	{
+	 type:   flt(64,IEEE)
+	 alias:  "oldTime"
+	 origin: "Kensei150401/Peripherals/FLspeedEnc/fl encoder interrupt function/oldTime Memory"
+	 flags:  DSM
+	}
+	pulse
+	{
+	 type:   flt(64,IEEE)
+	 alias:  "pulse"
+	 origin: "Kensei150401/Peripherals/FLspeedEnc/fl encoder interrupt function/pulse Memory"
+	 flags:  DSM
+	}
+endgroup
+
+
+-- ******** Labels ************************************************************
+
+group "Labels"
+{
+ flags: COLLAPSED
+}
+	p_Kensei150401_B_real_T_0[329]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "CurrentPerc{Occurence1}"
+	 origin:  "Kensei150401/Peripherals/CAN/RX Message Controller 1/CurrentPerc"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[335]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "CurrentPerc{Occurence2}"
+	 origin:  "Kensei150401/Peripherals/CAN/RX Message Controller 2/CurrentPerc"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[328]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "LSB{Occurence1}"
+	 origin:  "Kensei150401/Peripherals/CAN/RX Message Controller 1/LSB"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[334]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "LSB{Occurence2}"
+	 origin:  "Kensei150401/Peripherals/CAN/RX Message Controller 2/LSB"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[327]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "MSB{Occurence1}"
+	 origin:  "Kensei150401/Peripherals/CAN/RX Message Controller 1/MSB"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[333]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "MSB{Occurence2}"
+	 origin:  "Kensei150401/Peripherals/CAN/RX Message Controller 2/MSB"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_uint8_T_4[1]
+	{
+	 type:    uint(8)*
+	 alias:   "4"
+	 origin:  "Kensei150401/Peripherals/SER_Gyro/CAN_TYPE1_SER_RX_M1_C1/RXBytes"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[351]
+	{
+	 type:    Kensei150401_ArrayDT0_2*
+	 alias:   "m/s{Occurence1}"
+	 origin:  "Kensei150401/Peripherals/CAN/Tyre radius/Out1"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[51]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "m/s{Occurence2}"
+	 origin:  "Kensei150401/Peripherals/FLspeedEnc/Tyre radius/Out1"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[374]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "m/s{Occurence3}"
+	 origin:  "Kensei150401/Peripherals/FLspeedEnc/Tyre radius1/Out1"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[369]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "m/s{Occurence4}"
+	 origin:  "Kensei150401/Peripherals/FLspeedEnc/Tyre radius2/Out1"
+	 flags:   LABEL|READONLY
+	}
+	-- Skipping label "m/s{Occurence5}"
+
+	p_Kensei150401_B_real_T_0[487]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "m/s{Occurence6}"
+	 origin:  "Kensei150401/Throttle (Basic)/Tyre radius/Out1"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[308]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "pedalzpt"
+	 origin:  "Kensei150401/Throttle (Basic)/Switch3/Out1"
+	 flags:   LABEL|READONLY
+	}
+	p_Kensei150401_B_real_T_0[485]
+	{
+	 type:    flt(64,IEEE)*
+	 alias:   "slip"
+	 origin:  "Kensei150401/Throttle (Basic)/u(2) // u(1)L/Out1"
+	 flags:   LABEL|READONLY
+	}
+	-- Skipping label "w{Occurence1}"
+
+	-- Skipping label "w{Occurence2}"
+
+
+endgroup
+
+-- ******** RTT Dynamic Variables *********************************************
+
+group "RTT Dynamic Variables"
+{
+ flags: COLLAPSED
+}
+
+endgroup
+
